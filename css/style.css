@@ -1,0 +1,38 @@
+/************
+Reset
+*************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    background-color:#7fffd4;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header, footer{
+    padding: 1.25rem;
+}
+
+.board{
+    background-color: lightgray;
+    height: 37.5rem;
+    width:  37.5rem;
+}
+
+.cell{
+    border: 1px solid black;
+    background-color: cornflowerblue;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
